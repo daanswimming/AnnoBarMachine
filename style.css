@@ -31,7 +31,7 @@ body, html {
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 400px; /* 建議尺寸 */
+    width: 200px; /* 建議尺寸 */
     z-index: 10;
 }
 
@@ -244,4 +244,5 @@ body, html {
     #result-description {
         font-size: 1.2em;
     }
+
 }
