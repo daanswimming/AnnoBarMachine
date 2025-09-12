@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>深海鯨魚的幸運浪潮</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="slot-machine">
+
+        <div id="mascot-container">
+            <img src="img/鯨寶.png" alt="鯨魚吉祥物" id="mascot-img">
+        </div>
+
+        <div id="info-container">
+            <img src="img/anno-w.png" alt="活動主視覺">
+            <h1>鯨寶寶的贈禮</h1>
+            <p>按下鯨魚尾鰭，看看大海今天想請你喝什麼！</p>
+        </div>
+
+        <div id="reels-container">
+            <div class="bubble">
+                <div class="reel-strip"></div>
+            </div>
+            <div class="bubble">
+                <div class="reel-strip"></div>
+            </div>
+            <div class="bubble">
+                <div class="reel-strip"></div>
+            </div>
+        </div>
+
+        <div id="controls">
+            <button id="spin-button" aria-label="開始抽獎"></button>
+        </div>
+
+        <div id="result-display" class="hidden">
+            <h2 id="result-title"></h2>
+            <p id="result-description"></p>
+            <br>
+            <p>請至櫃台領取風土物產試吃品</p>
+        </div>
+
+    </div>
+
+    <audio id="spin-sound" src="sounds/spinning-sound.mp3" loop></audio>
+    <audio id="win-sound" src="sounds/win-sound.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
