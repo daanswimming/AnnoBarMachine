@@ -29,7 +29,6 @@ window.addEventListener('load', () => {
 
     const drinkPrizes = [
         { id: 'drink01', name: '蜜汁豬肉條', description: '...', icon: 'img/岩燒豬肉條.png'},
-        { id: 'drink02', name: '杏仁豬肉乾', description: '...', icon: 'img/杏仁脆豬肉乾.png'},
         { id: 'drink03', name: '蓬萊米餅', description: '...', icon: 'img/蓬萊米餅.png' },
         { id: 'drink04', name: '青蔥脆餅', description: '...', icon: 'img/蔥師傅蔥餅.png' },
     ];
@@ -152,4 +151,5 @@ window.addEventListener('load', () => {
 
     // --- 初始化 ---
     setupReels();
+
 });
